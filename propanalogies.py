@@ -5,7 +5,7 @@ model = api.load("word2vec-google-news-300")
 print("Model Loaded.\n")
 
 
-analogy = input("Enter your analogy in format A:B::C:? ")
+analogy = input("Enter your analogy in format 'A:B::C:?'\n")
 
 left, right = analogy.split("::")
 A, B = left.split(":")
