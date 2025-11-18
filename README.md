@@ -3,6 +3,8 @@ This simple Python program uses a pretrained Word2Vec Google News model to compu
 
 It allows the user to enter two postive words and one negative word, then returns the top 5 most similar words based on vector arithmetic. 
 
+**Disclaimer:** This program may take up to 5 minutes to run on the first time (downloading dependencies etc.)
+
 An example analogy:
 man :king :: woman : queen 
 
