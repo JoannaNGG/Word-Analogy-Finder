@@ -11,6 +11,7 @@ man :king :: woman : queen
 ## **Steps**
 
 **Ensure that you are in the correct directory**
+
 **Optional, but recommended:** Create a venv (python -m venv nameofvenv)
 If using a vevn, ensure the correct interpreter is selected otherwise a module not found error may occur.
 
