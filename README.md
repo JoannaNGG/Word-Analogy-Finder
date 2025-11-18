@@ -8,7 +8,7 @@ It allows the user to enter two postive words and one negative word, then return
 An example analogy:
 man :king :: woman : queen 
 
-# **Steps**
+## **Steps**
 
 **Ensure that you are in the correct directory**
 **Optional, but recommended:** Create a venv (python -m venv nameofvenv)
