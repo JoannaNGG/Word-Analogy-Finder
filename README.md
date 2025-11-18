@@ -7,9 +7,18 @@ An example analogy:
 man :king :: woman : queen 
 
 **Steps**
-
+**Ensure that you are in the correct directory**
 **Optional, but recommended:** Create a venv (python -m venv nameofvenv)
+If using a vevn, ensure the correct interpreter is selected otherwise a module not found error may occur.
 
 **Install requirements.txt:** pip install -r requirements.txt
 
 **Run the Program**
+
+**Example Analogy**:
+man : king :: woman : ?
+
+First positive word: king
+Second Positive word: woman
+First Negative word: man
+Expected result: queen (as the top result)
