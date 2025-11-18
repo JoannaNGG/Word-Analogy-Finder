@@ -14,11 +14,3 @@ If using a vevn, ensure the correct interpreter is selected otherwise a module n
 **Install requirements.txt:** pip install -r requirements.txt
 
 **Run the Program**
-
-**Example Analogy**:
-man : king :: woman : ?
-
-First positive word: king
-Second Positive word: woman
-First Negative word: man
-Expected result: queen (as the top result)
