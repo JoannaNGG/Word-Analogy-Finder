@@ -20,12 +20,11 @@ result = model.most_similar(
 roundResult = [(word, round(score, 3)) for word, score in result]
 print(roundResult)
 
-#Compare top 1 result with the word "male/female"
-top_word = result[0][0]  #top result
+#Compare top 1 result with "male/female"
+top_word = result[0][0]
 
 sim_male = model.similarity(top_word, "male")
 sim_female = model.similarity(top_word, "female")
 
-print(f"\nSimilarity of '{top_word}' to 'male':   {round(sim_male, 3)}")
-print(f"Similarity of '{top_word}' to 'female': {round(sim_female, 3)}")
-
+print(f"\nSimilarity of '{top_word}' to 'male': {sim_male:.3f}")
+print(f"Similarity of '{top_word}' to 'female': {sim_female:.3f}")
